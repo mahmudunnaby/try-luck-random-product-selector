@@ -1,13 +1,18 @@
 .product img{
-   height: 350px;
-   width: 400px;
+   height: 270px;
+   width: 300px;
    align-items: center;
    justify-content: center;
+   padding: 7px;
+   border-radius: 10px;
+   
 }
 
 .product{
-    width: 350px;
-    height: 510px;
+    width: 310px;
+    height: 450px;
+    border: 1px solid gainsboro;
+    margin: 7px;
     
 }
 .add-btn{
