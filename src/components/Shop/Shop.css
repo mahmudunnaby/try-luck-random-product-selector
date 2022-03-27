@@ -8,6 +8,13 @@ grid-template-columns: 4fr 1fr;
     grid-template-columns: repeat(3,1fr);
     gap: 10px
 }
+.shop-container{
+    margin: 30px;
+}
+.cart-container{
+    background-color: rgba(136, 255, 235, 0.466);
+    border-radius: 20px;
+}
 
 @media screen and (max-width:481px){
     .product-container {
