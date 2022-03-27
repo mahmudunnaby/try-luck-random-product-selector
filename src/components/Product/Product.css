@@ -1,0 +1,28 @@
+.product img{
+   height: 350px;
+   width: 400px;
+   align-items: center;
+   justify-content: center;
+}
+
+.product{
+    width: 350px;
+    height: 510px;
+    
+}
+.add-btn{
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border-color:aquamarine ;
+    font-weight: 500;
+}
+
+.add-btn:hover{
+    background-color: aqua;
+    border-radius: 20px;
+}
+.brand {
+    font-weight: 500;
+
+}

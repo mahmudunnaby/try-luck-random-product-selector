@@ -1,0 +1,65 @@
+[
+    {
+        "id": 0,
+        "picture": "https://img.freepik.com/free-photo/pink-headphones-wireless-digital-device_53876-96804.jpg?w=1060&t=st=1648411572~exp=1648412172~hmac=51821410f6ce1421480eb539e543a7dd867e06771c26b5f2a959430cf6afedab",
+        "price": 246,
+        "brand": "Amanda Roy",
+        "company": "QUILM"
+    },
+    {
+        "id": 1,
+        "picture": "https://img.freepik.com/free-photo/paper-craft-art-headphones_53876-145021.jpg?t=st=1648411569~exp=1648412169~hmac=e596048b206e2d361b781e815ab9c3cae0fc4dfa7b97bd5bf42c636a8657cb58&w=740",
+        "price": 235,
+        "brand": "Thornton Emerson",
+        "company": "INDEXIA"
+    },
+    {
+        "id": 2,
+        "picture": "https://img.freepik.com/free-photo/white-wireless-earbud-digital-earphones_53876-96830.jpg?w=360",
+        "price": 258,
+        "brand": "Duncan Martin",
+        "company": "TROPOLI"
+    },
+    {
+        "id": 3,
+        "picture": "https://img.freepik.com/free-photo/pink-wireless-earbuds-case-mockup-digital-earphones_53876-97319.jpg?w=740",
+        "price": 372,
+        "brand": "Jerry Mercado",
+        "company": "MARKETOID"
+    },
+    {
+        "id": 4,
+        "picture": "https://img.freepik.com/free-vector/headphones-background-design_1063-131.jpg?w=740&t=st=1648411828~exp=1648412428~hmac=560f3929bc4897d1dc07990b322352a43807f668325935558408aeddfea48301",
+        "price": 171,
+        "brand": "Dollie Griffin",
+        "company": "PIVITOL"
+    },
+    {
+        "id": 5,
+        "picture": "https://img.freepik.com/free-psd/creative-headphone-mockup_1310-744.jpg?w=1060&t=st=1648411855~exp=1648412455~hmac=a5fc3884f40fd1053cf5d9fc8337e9acce739c32105057eca06af10621c4a733",
+        "price": 354,
+        "brand": "Chavez Schultz",
+        "company": "SLOFAST"
+    },
+    {
+        "id": 6,
+        "picture": "https://img.freepik.com/free-photo/headphones-audio-listen_1203-7566.jpg?w=360&t=st=1648411885~exp=1648412485~hmac=1b9b7ef2e628b414d0d91099942bc13ce73fde07d3c68f301bc2ab2ee9e1d5fe",
+        "price": 134,
+        "brand": "Durham Zamora",
+        "company": "ZAPPIX"
+    },
+    {
+        "id": 7,
+        "picture": "https://img.freepik.com/free-vector/realistic-wireless-headphones-set_1284-20424.jpg?w=1060",
+        "price": 296,
+        "brand": "Maude Gregory",
+        "company": "XTH"
+    },
+    {
+        "id": 8,
+        "picture": "https://img.freepik.com/free-vector/microphone-headphones-retro-realistic-image_1284-14415.jpg?w=740",
+        "price": 370,
+        "brand": "Inez Wright",
+        "company": "INFOTRIPS"
+    }
+]
