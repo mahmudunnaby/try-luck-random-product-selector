@@ -3,7 +3,8 @@ import Product from '../Product/Product';
 import styles from './Shop.css'
 
 const Shop = () => {
-    const [products, setProducts] = useState([])
+    const [products, setProducts] = useState([]);
+    const [selection, setSelection] = useState([])
 
     useEffect(() => {
         fetch('data.json')
@@ -13,6 +14,8 @@ const Shop = () => {
 
     const handleClick = (product) => {
         console.log(product);
+        const newSelection = [...selection, product]
+        setSelection(newSelection)
     }
 
     return (
@@ -27,7 +30,7 @@ const Shop = () => {
                 }
             </div>
             <div className='cart-container'>
-                <h3>My Selections</h3>
+                <h3>My Selections: {selection.length}</h3>
             </div>
         </div>
     );
