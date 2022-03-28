@@ -34,7 +34,7 @@ const Shop = () => {
             </div>
             <div className='cart-container'>
 
-                <Cart selection={selection}></Cart>
+                <Cart selection={selection} setSelection={setSelection}></Cart>
             </div>
         </div>
     );

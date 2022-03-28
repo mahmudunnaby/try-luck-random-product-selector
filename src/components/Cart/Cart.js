@@ -5,8 +5,10 @@ import SelectionName from './Selection/SelectionName';
 
 const Cart = (props) => {
     const [name, setName] = useState('')
+    const [reseting, setReseting] = useState('')
+
     console.log(props);
-    let { selection } = props;
+    let { selection, setSelection } = props;
 
     let products = selection
     const chooseOne = () => {
@@ -14,7 +16,11 @@ const Cart = (props) => {
         console.log(randomName);
         setName(randomName.brand)
     }
+    const reSet = () => {
 
+        setSelection([])
+        setName('')
+    }
 
     return (
         <div className='cart'>
@@ -25,7 +31,7 @@ const Cart = (props) => {
             }
             <button onClick={() => chooseOne()} className='add-btn'>CHOOSE 1 FOR ME</button>
             <h3>Your Choice Should be: {name}</h3>
-            {/* <button onClick={() => reSet()} className='add-btn'>CHOOSE AGAIN</button> */}
+            <button onClick={() => reSet()} className='add-btn'>CHOOSE AGAIN</button>
 
         </div>
     );
