@@ -7,7 +7,7 @@ const Cart = (props) => {
     const [name, setName] = useState('')
     const [reseting, setReseting] = useState('')
 
-    console.log(props);
+
     let { selection, setSelection } = props;
 
     let products = selection
