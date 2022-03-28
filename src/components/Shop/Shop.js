@@ -35,7 +35,9 @@ const Shop = () => {
             <div className='cart-container'>
 
                 <Cart selection={selection} setSelection={setSelection}></Cart>
+
             </div>
+
         </div>
     );
 };

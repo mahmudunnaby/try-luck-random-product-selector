@@ -1,7 +1,7 @@
 import { faHourglass1 } from '@fortawesome/free-solid-svg-icons';
 import React, { useState } from 'react';
 import styles from './Cart.css'
-import SelectionName from './Selection/SelectionName';
+
 
 const Cart = (props) => {
     const [name, setName] = useState('')
