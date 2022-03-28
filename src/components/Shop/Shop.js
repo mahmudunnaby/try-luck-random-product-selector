@@ -14,10 +14,12 @@ const Shop = () => {
     }, [])
 
     const handleClick = (product) => {
-        console.log(product);
+        // console.log(product);
         const newSelection = [...selection, product]
         setSelection(newSelection)
     }
+
+
 
     return (
         <div className='shop-container'>
@@ -31,6 +33,7 @@ const Shop = () => {
                 }
             </div>
             <div className='cart-container'>
+
                 <Cart selection={selection}></Cart>
             </div>
         </div>

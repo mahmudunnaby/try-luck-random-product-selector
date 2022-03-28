@@ -1,0 +1,11 @@
+.cart{
+    position: sticky;
+    top: 0;
+}
+.add-btn{
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border-color:aquamarine ;
+    font-weight: 500;
+}
